@@ -15,11 +15,11 @@ body {
   position: relative; }
 
 .container {
+  width: 75%;
   min-width: 300px;
-  max-width: 980px;
+  max-width: 1280px;
   margin: 0 auto;
-  border-left: 0 solid transparent;
-  border-right: 0 solid transparent; }
+  padding: 0 0; }
 
 .clear {
   clear: both; }
@@ -129,8 +129,8 @@ hr {
 
 .header {
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.25);
   position: absolute;
@@ -146,8 +146,8 @@ hr {
 
 .footer {
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.25);
   position: absolute;
@@ -169,13 +169,13 @@ hr {
     .footer a:hover {
       text-decoration: none; }
 
-.content {
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
+.main {
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
   padding: 2em 0 5em 0; }
-  .content img {
+  .main img {
     max-width: 100%; }
-  .content table {
+  .main table {
     max-width: 100%; }
 
 /*==========  Mobile First  ==========*/
