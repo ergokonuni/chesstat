@@ -93,7 +93,7 @@ gulp.task('html', function(){
 gulp.task('pug', function(){
 	return gulp.src('app/**/*.pug')
 		.pipe(changed('dist', { extension: '.html' }))
-		.pipe(pugInherit({ basedir: 'app/', skip: 'node_modules' }))
+		.pipe(pugInherit({ basedir: 'app', skip: 'node_modules' }))
 		.pipe(pug({ pretty: true }))
 		.pipe(gulp.dest('dist'))
 		.pipe(browserSync.reload({stream: true}));
